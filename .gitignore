@@ -1,0 +1,19 @@
+@"
+.env
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.log
+
+# Generated/output data
+qualified_leads.csv
+sample_leads_qualified.csv
+input.csv
+lead_evaluation_input.csv
+home_services_input.csv
+
+# Keep example environment file
+!.env.example
+"@ | Out-File -Encoding utf8 .gitignore
+*.csv
